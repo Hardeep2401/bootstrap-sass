@@ -1,0 +1,230 @@
+.main-head {
+  background-color: #303030;
+}
+
+.header-contct-info {
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+  color: white;
+}
+.header-contct-info svg {
+  width: 20px;
+  height: 20px;
+}
+
+.header-contct-mail {
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+.header-contct-mail .icon-awesome {
+  color: #28a7e9;
+}
+
+.header-contct-social-site {
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+.header-contct-social-site a:hover {
+  background-color: #28a7e9;
+  height: 20px;
+  width: 22px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+nav {
+  background-color: white;
+}
+nav .nb-main:hover {
+  opacity: 0.9;
+}
+
+.navbar-a .navbar-brand {
+  color: #777;
+  font-weight: bolder;
+  font-size: 13px;
+  height: 70px;
+  padding: 12px 0px 0px 12px;
+}
+
+.footer {
+  background-color: #202020;
+  font-family: sans-serif;
+}
+.footer h1 {
+  color: #28a7e9;
+  font-weight: 600;
+}
+.footer .input {
+  height: 50px;
+  border: 2px solid #28a7e9;
+  background-color: #202020;
+  border-radius: 0;
+  color: white;
+}
+.footer .input:focus {
+  background-color: #202020;
+  color: white;
+}
+.footer .text-area {
+  border: 2px solid #28a7e9;
+  background-color: #202020;
+  border-radius: 0;
+  color: white;
+}
+.footer .text-area:focus {
+  background-color: #202020;
+  color: white;
+}
+.footer .btn {
+  background-color: #28a7e9;
+  border-radius: 0;
+  margin-top: 20px;
+  height: 50px;
+}
+.footer .btn:hover {
+  border: 1px solid #28a7e9;
+}
+.footer .fa-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  padding: 10px;
+  gap: 3px;
+  padding-left: 12px;
+}
+
+/* awesome */
+.awesome-main {
+  background-image: url(/images/home-bg.jpg);
+  background-size: cover;
+  object-fit: fill;
+}
+.awesome-main .h1-text {
+  color: #28a7e9;
+}
+.awesome-main .fnt-w {
+  font-weight: 500;
+}
+
+.about {
+  background-color: #303030;
+}
+.about .h1-text {
+  color: #28a7e9;
+}
+.about .fs {
+  font-size: 18px;
+}
+.about .icon-i {
+  border: 1px solid;
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+}
+
+.team {
+  background-color: #303030;
+}
+.team h1 {
+  color: #28a7e9;
+}
+.team .card {
+  width: 288px;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  transform-origin: bottom;
+  background-color: #404040;
+  cursor: pointer;
+}
+.team .card:hover {
+  opacity: 0.7;
+  animation-name: card;
+  animation-timing-function: ease;
+}
+@keyframes card {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.team .card span {
+  color: #28a7e9;
+}
+
+.cloud {
+  background-color: #303030;
+}
+.cloud .h-text {
+  color: #28a7e9;
+}
+.cloud h5 {
+  color: #28a7e9;
+}
+.cloud .cloud-card {
+  background-color: #505050;
+}
+.cloud .cloud-card-hvr:hover {
+  background-color: #505050;
+  transition: all 0.4s ease-in-out;
+}
+.cloud .fa-icon {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+}
+
+.portfolio {
+  background-color: #303030;
+}
+.portfolio h1 {
+  color: #28a7e9;
+}
+.portfolio .port-mrgin {
+  margin-top: -24px;
+}
+.portfolio .main {
+  position: relative;
+}
+.portfolio .image {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.portfolio .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.portfolio .main:hover .image {
+  opacity: 0.3;
+}
+.portfolio .main:hover .middle {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+.portfolio .text {
+  background-color: #28a7e9;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,19 @@
+.about {
+    background-color: $primary-color;
+
+    .h1-text {
+        color: $secondary-color;
+    }
+
+    .fs {
+        font-size: 18px;
+    }
+
+    .icon-i {
+        border: 1px solid;
+        width: 70px;
+        height: 70px;
+        padding: 20px;
+    }
+
+}

@@ -1,0 +1,36 @@
+.team {
+    background-color: $primary-color;
+
+    h1 {
+        color: $secondary-color;
+    }
+
+    .card {
+        width: 288px;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        transform-origin: bottom;
+        background-color: $tertiary-color;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.7;
+            animation-name: card;
+            animation-timing-function: ease;
+        }
+
+        @keyframes card {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        span {
+            color: $secondary-color;
+        }
+    }
+}

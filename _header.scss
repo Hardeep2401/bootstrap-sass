@@ -1,0 +1,64 @@
+ // header // 
+
+ .main-head {
+     background-color: $primary-color;
+ }
+
+//  .header-main {
+//      color: white;
+//  }
+
+
+
+ @mixin d-flex {
+     display: flex;
+     gap: 11px;
+     flex-wrap: wrap;
+ }
+
+ .header-contct-info {
+     @include d-flex;
+     color: white; 
+
+     svg {
+         width: 20px;
+         height: 20px;
+     }
+ }
+
+ .header-contct-mail {
+     @include d-flex;
+
+     .icon-awesome {
+         color: $secondary-color;
+     }
+ }
+
+ .header-contct-social-site {
+     @include d-flex;
+
+     a:hover {
+         background-color: $secondary-color;
+         height: 20px;
+         width: 22px;
+         border-radius: 5px;
+         padding: 5px;
+         margin: 5px;
+     }
+ }
+
+nav {
+     background-color: white;
+
+     .nb-main:hover {
+         opacity: 0.9;
+     }
+ }
+
+ .navbar-a .navbar-brand {
+     color: #777;
+     font-weight: bolder;
+     font-size: 13px;
+     height: 70px;
+     padding: 12px 0px 0px 12px;
+ }

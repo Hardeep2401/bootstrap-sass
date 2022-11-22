@@ -1,0 +1,16 @@
+/* awesome */
+
+
+.awesome-main {
+    background-image: url(/images/home-bg.jpg);
+    background-size: cover;
+    object-fit: fill;
+
+    .h1-text {
+        color: $secondary-color;
+    }
+
+    .fnt-w {
+        font-weight: 500;
+    }
+}

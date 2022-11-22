@@ -1,0 +1,28 @@
+.cloud {
+    background-color: $primary-color;
+
+    .h-text {
+        color: $secondary-color;
+    }
+
+    h5 {
+        color: $secondary-color;
+    }
+
+    .cloud-card {
+        background-color: #505050;
+    }
+
+    .cloud-card-hvr:hover {
+        background-color: #505050;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .fa-icon {
+        border: 1px solid;
+        width: 100px;
+        height: 100px;
+        padding: 15px;
+    }
+
+}

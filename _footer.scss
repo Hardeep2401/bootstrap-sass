@@ -1,0 +1,54 @@
+.footer {
+    background-color: $quaternary-color;
+    font-family: $font-family-sans;
+
+    h1 {
+        color: $secondary-color;
+        font-weight: 600;
+    }
+
+    .input {
+        height: 50px;
+        border: 2px solid $secondary-color;
+        background-color: $quaternary-color;
+        border-radius: 0;
+        color: white;
+
+        &:focus {
+            background-color: $quaternary-color;
+            color: white;
+        }
+    }
+
+    .text-area {
+        border: 2px solid $secondary-color;
+        background-color: $quaternary-color;
+        border-radius: 0;
+        color: white;
+
+        &:focus {
+            background-color: $quaternary-color;
+            color: white;
+        }
+    }
+
+    .btn {
+        background-color: $secondary-color;
+        border-radius: 0;
+        margin-top: 20px;
+        height: 50px;
+
+        &:hover {
+            border: 1px solid $secondary-color;
+        }
+    }
+
+    .fa-icon {
+        width: 40px;
+        height: 40px;
+        border: 1px solid;
+        padding: 10px;
+        gap: 3px;
+        padding-left: 12px;
+    }
+}
